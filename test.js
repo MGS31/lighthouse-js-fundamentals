@@ -1,5 +1,10 @@
-var x = 10;
-while (x <= 25) {
-  console.log('Printing out x = ' + x);
-  x = x + 2;
+
+function laugh(num) {
+  let laugh = '';
+    for (let x = 0; x <= num; x++) {
+        laugh += 'ha';
+    }
+    return laugh + "!";
 }
+
+console.log(laugh(30));
