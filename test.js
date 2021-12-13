@@ -1,10 +1,8 @@
 
-function laugh(num) {
-  let laugh = '';
-    for (let x = 0; x <= num; x++) {
-        laugh += 'ha';
-    }
-    return laugh + "!";
-}
+isEven = function(num) {
+  
+};
 
-console.log(laugh(30));
+isOdd = function(num) {
+
+};
